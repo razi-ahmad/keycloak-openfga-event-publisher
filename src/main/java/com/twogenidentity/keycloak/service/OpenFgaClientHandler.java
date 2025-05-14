@@ -26,10 +26,10 @@ public class OpenFgaClientHandler {
 
     private final ClientWriteOptions clientWriteOptions;
 
-    protected static final String OPENFGA_API_URL = "openfgaApiUrl";
-    protected static final String OPENFGA_API_TOKEN = "openfgaApiToken";
-    protected static final String OPENFGA_STORE_ID = "openfgaStoreId";
-    protected static final String OPENFGA_AUTHORIZATION_MODEL_ID = "openfgaAuthorizationModelId";
+    protected static final String OPENFGA_API_URL = "openfga-api-url";
+    protected static final String OPENFGA_API_TOKEN = "openfga-api-token";
+    protected static final String OPENFGA_STORE_ID = "openfga-store-id";
+    protected static final String OPENFGA_AUTHORIZATION_MODEL_ID = "openfga-authorization-model-id";
 
     private static final Logger LOG = Logger.getLogger(OpenFgaClientHandler.class);
 
