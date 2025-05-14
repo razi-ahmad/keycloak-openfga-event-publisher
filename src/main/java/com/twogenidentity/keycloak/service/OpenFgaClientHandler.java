@@ -41,8 +41,6 @@ public class OpenFgaClientHandler {
                 .connectTimeout(Duration.ofSeconds(5))
                 .readTimeout(Duration.ofSeconds(5));
 
-        LOG.infof("Creating client configuration. token=%s url=%s", getOpenFgaApiToken(), getOpenFgaApiUrl());
-
         if(StringUtil.isNotBlank(getOpenFgaApiToken())) {
             LOG.info("API Token provided in config, will use it for authentication with OpenFGA");
             ApiToken token = new ApiToken(getOpenFgaApiToken());
